@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff7e6; /* Light cream background */
+}
+
+.container {
+    background: #fff; /* White container */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #f39c12; /* Golden border */
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: #e74c3c; /* Tomato red for headings */
+    font-family: 'Georgia', serif;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #27ae60; /* Fresh green color */
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa; /* Light gray input background */
+}
+
+input:focus {
+    outline: none;
+    border-color: #f39c12; /* Golden border focus */
+    box-shadow: 0 0 5px rgba(243, 156, 18, 0.5); /* Golden glow */
+}
+
+.btn {
+    width: 100%;
+    padding: 0.8rem;
+    background: #e67e22; /* Bright orange button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #d35400; /* Dark orange on hover */
+}
+
+p {
+    color: #34495e; /* Deep blue-gray for text */
+    font-size: 1rem;
+    margin-top: 1rem;
+}
